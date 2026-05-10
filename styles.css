@@ -50,7 +50,7 @@
   --navy-mid:       #b0c6df;
   --text-primary:   #dce8f5;
   --text-secondary: #7a90a8;
-  --text-hint:      #445566;
+  --text-hint:      #9ea5ac;
 
   /* Brand accent — warm teal, chroma pulled back so it glows without screaming */
   --teal:           #34c4ae;
@@ -154,7 +154,7 @@
 }
 
 [data-theme="dark"] .form-title { color: #dce8f5; }
-[data-theme="dark"] .form-subtitle { color: var(--text-hint); }
+[data-theme="dark"] .form-subtitle { color: var(--navy-mid); }
 
 /* ── INPUTS ── */
 [data-theme="dark"] .select-wrap select {
@@ -218,10 +218,10 @@
   opacity: 0.07;
 }
 [data-theme="dark"] .estimate-label {
-  color: rgba(52,196,174,0.55);
+  color: rgba(173, 253, 250, 0.95);
 }
-[data-theme="dark"] .estimate-amount { color: #dce8f5; }
-[data-theme="dark"] .estimate-note   { color: rgba(220,232,245,0.3); }
+[data-theme="dark"] .estimate-amount { color: #ffffff; }
+[data-theme="dark"] .estimate-note   { color: rgba(146, 182, 188, 0.907); }
 
 /* ── CTA BUTTON ── */
 [data-theme="dark"] .cta-btn {
@@ -651,8 +651,8 @@ body {
   align-items: center;
   gap: 0.35rem;
   padding: 0.3rem 0.85rem;
-  background: rgba(0,168,150,0.18);
-  color: #fff;
+  background: rgba(234, 234, 234, 0.997);
+  color: rgb(0, 61, 55);
   font-size: 0.7rem;
   font-weight: 600;
   letter-spacing: 0.12em;
