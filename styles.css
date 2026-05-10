@@ -800,9 +800,9 @@ body {
 .select-arrow {
   position: absolute;
   right: 0.9rem;
-  top: 50%;
+  top: 30%;
   transform: translateY(-50%);
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   color: var(--grey-500);
   pointer-events: none;
 }
